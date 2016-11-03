@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58AA8FF41DCB91BC00DE0C54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA8FF31DCB91BC00DE0C54 /* AppDelegate.swift */; };
+		58AA8FF61DCB91BC00DE0C54 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA8FF51DCB91BC00DE0C54 /* RootViewController.swift */; };
+		58AA8FF81DCB91BC00DE0C54 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA8FF71DCB91BC00DE0C54 /* DataViewController.swift */; };
+		58AA8FFA1DCB91BC00DE0C54 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA8FF91DCB91BC00DE0C54 /* ModelController.swift */; };
+		58AA8FFD1DCB91BC00DE0C54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58AA8FFB1DCB91BC00DE0C54 /* Main.storyboard */; };
+		58AA8FFF1DCB91BC00DE0C54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58AA8FFE1DCB91BC00DE0C54 /* Assets.xcassets */; };
+		58AA90021DCB91BC00DE0C54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58AA90001DCB91BC00DE0C54 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58AA8FF01DCB91BC00DE0C54 /* VerticalDoorTransitionAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerticalDoorTransitionAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58AA8FF31DCB91BC00DE0C54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58AA8FF51DCB91BC00DE0C54 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		58AA8FF71DCB91BC00DE0C54 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		58AA8FF91DCB91BC00DE0C54 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		58AA8FFC1DCB91BC00DE0C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58AA8FFE1DCB91BC00DE0C54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58AA90011DCB91BC00DE0C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58AA90031DCB91BC00DE0C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58AA8FED1DCB91BC00DE0C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58AA8FE71DCB91BC00DE0C54 = {
+			isa = PBXGroup;
+			children = (
+				58AA8FF21DCB91BC00DE0C54 /* VerticalDoorTransitionAnimation */,
+				58AA8FF11DCB91BC00DE0C54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58AA8FF11DCB91BC00DE0C54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58AA8FF01DCB91BC00DE0C54 /* VerticalDoorTransitionAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58AA8FF21DCB91BC00DE0C54 /* VerticalDoorTransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				58AA8FF31DCB91BC00DE0C54 /* AppDelegate.swift */,
+				58AA8FF51DCB91BC00DE0C54 /* RootViewController.swift */,
+				58AA8FF71DCB91BC00DE0C54 /* DataViewController.swift */,
+				58AA8FF91DCB91BC00DE0C54 /* ModelController.swift */,
+				58AA8FFB1DCB91BC00DE0C54 /* Main.storyboard */,
+				58AA8FFE1DCB91BC00DE0C54 /* Assets.xcassets */,
+				58AA90001DCB91BC00DE0C54 /* LaunchScreen.storyboard */,
+				58AA90031DCB91BC00DE0C54 /* Info.plist */,
+			);
+			path = VerticalDoorTransitionAnimation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58AA8FEF1DCB91BC00DE0C54 /* VerticalDoorTransitionAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58AA90061DCB91BC00DE0C54 /* Build configuration list for PBXNativeTarget "VerticalDoorTransitionAnimation" */;
+			buildPhases = (
+				58AA8FEC1DCB91BC00DE0C54 /* Sources */,
+				58AA8FED1DCB91BC00DE0C54 /* Frameworks */,
+				58AA8FEE1DCB91BC00DE0C54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VerticalDoorTransitionAnimation;
+			productName = VerticalDoorTransitionAnimation;
+			productReference = 58AA8FF01DCB91BC00DE0C54 /* VerticalDoorTransitionAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58AA8FE81DCB91BC00DE0C54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Gennady;
+				TargetAttributes = {
+					58AA8FEF1DCB91BC00DE0C54 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 58AA8FEB1DCB91BC00DE0C54 /* Build configuration list for PBXProject "VerticalDoorTransitionAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58AA8FE71DCB91BC00DE0C54;
+			productRefGroup = 58AA8FF11DCB91BC00DE0C54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58AA8FEF1DCB91BC00DE0C54 /* VerticalDoorTransitionAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58AA8FEE1DCB91BC00DE0C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AA90021DCB91BC00DE0C54 /* LaunchScreen.storyboard in Resources */,
+				58AA8FFF1DCB91BC00DE0C54 /* Assets.xcassets in Resources */,
+				58AA8FFD1DCB91BC00DE0C54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58AA8FEC1DCB91BC00DE0C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AA8FF61DCB91BC00DE0C54 /* RootViewController.swift in Sources */,
+				58AA8FFA1DCB91BC00DE0C54 /* ModelController.swift in Sources */,
+				58AA8FF81DCB91BC00DE0C54 /* DataViewController.swift in Sources */,
+				58AA8FF41DCB91BC00DE0C54 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58AA8FFB1DCB91BC00DE0C54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58AA8FFC1DCB91BC00DE0C54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58AA90001DCB91BC00DE0C54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58AA90011DCB91BC00DE0C54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58AA90041DCB91BC00DE0C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58AA90051DCB91BC00DE0C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58AA90071DCB91BC00DE0C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VerticalDoorTransitionAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Oleygen.VerticalDoorTransitionAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		58AA90081DCB91BC00DE0C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VerticalDoorTransitionAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Oleygen.VerticalDoorTransitionAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58AA8FEB1DCB91BC00DE0C54 /* Build configuration list for PBXProject "VerticalDoorTransitionAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58AA90041DCB91BC00DE0C54 /* Debug */,
+				58AA90051DCB91BC00DE0C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58AA90061DCB91BC00DE0C54 /* Build configuration list for PBXNativeTarget "VerticalDoorTransitionAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58AA90071DCB91BC00DE0C54 /* Debug */,
+				58AA90081DCB91BC00DE0C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58AA8FE81DCB91BC00DE0C54 /* Project object */;
+}
