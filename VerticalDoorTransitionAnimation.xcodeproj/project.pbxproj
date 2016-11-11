@@ -8,24 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		58AA8FF41DCB91BC00DE0C54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA8FF31DCB91BC00DE0C54 /* AppDelegate.swift */; };
-		58AA8FF61DCB91BC00DE0C54 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA8FF51DCB91BC00DE0C54 /* RootViewController.swift */; };
-		58AA8FF81DCB91BC00DE0C54 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA8FF71DCB91BC00DE0C54 /* DataViewController.swift */; };
-		58AA8FFA1DCB91BC00DE0C54 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA8FF91DCB91BC00DE0C54 /* ModelController.swift */; };
 		58AA8FFD1DCB91BC00DE0C54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58AA8FFB1DCB91BC00DE0C54 /* Main.storyboard */; };
 		58AA8FFF1DCB91BC00DE0C54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58AA8FFE1DCB91BC00DE0C54 /* Assets.xcassets */; };
 		58AA90021DCB91BC00DE0C54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58AA90001DCB91BC00DE0C54 /* LaunchScreen.storyboard */; };
+		58AA900A1DCB91E000DE0C54 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA90091DCB91E000DE0C54 /* FirstViewController.swift */; };
+		58AA900C1DCB91E600DE0C54 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA900B1DCB91E600DE0C54 /* SecondViewController.swift */; };
+		58AA900E1DCB93FE00DE0C54 /* VerticalDoorAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA900D1DCB93FE00DE0C54 /* VerticalDoorAnimationController.swift */; };
+		58AA90121DCB99FE00DE0C54 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA90111DCB99FE00DE0C54 /* Extensions.swift */; };
+		58AA90141DCBC4EC00DE0C54 /* DragInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA90131DCBC4EC00DE0C54 /* DragInteractionController.swift */; };
+		58F156571DCC98D00024B4BB /* PannableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F156561DCC98D00024B4BB /* PannableButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		58AA8FF01DCB91BC00DE0C54 /* VerticalDoorTransitionAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerticalDoorTransitionAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58AA8FF31DCB91BC00DE0C54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		58AA8FF51DCB91BC00DE0C54 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		58AA8FF71DCB91BC00DE0C54 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		58AA8FF91DCB91BC00DE0C54 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		58AA8FFC1DCB91BC00DE0C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58AA8FFE1DCB91BC00DE0C54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58AA90011DCB91BC00DE0C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58AA90031DCB91BC00DE0C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58AA90091DCB91E000DE0C54 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		58AA900B1DCB91E600DE0C54 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		58AA900D1DCB93FE00DE0C54 /* VerticalDoorAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalDoorAnimationController.swift; sourceTree = "<group>"; };
+		58AA90111DCB99FE00DE0C54 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		58AA90131DCBC4EC00DE0C54 /* DragInteractionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragInteractionController.swift; sourceTree = "<group>"; };
+		58F156561DCC98D00024B4BB /* PannableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PannableButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,13 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				58AA8FF31DCB91BC00DE0C54 /* AppDelegate.swift */,
-				58AA8FF51DCB91BC00DE0C54 /* RootViewController.swift */,
-				58AA8FF71DCB91BC00DE0C54 /* DataViewController.swift */,
-				58AA8FF91DCB91BC00DE0C54 /* ModelController.swift */,
 				58AA8FFB1DCB91BC00DE0C54 /* Main.storyboard */,
 				58AA8FFE1DCB91BC00DE0C54 /* Assets.xcassets */,
 				58AA90001DCB91BC00DE0C54 /* LaunchScreen.storyboard */,
 				58AA90031DCB91BC00DE0C54 /* Info.plist */,
+				58AA90091DCB91E000DE0C54 /* FirstViewController.swift */,
+				58F156561DCC98D00024B4BB /* PannableButton.swift */,
+				58AA900B1DCB91E600DE0C54 /* SecondViewController.swift */,
+				58AA900D1DCB93FE00DE0C54 /* VerticalDoorAnimationController.swift */,
+				58AA90111DCB99FE00DE0C54 /* Extensions.swift */,
+				58AA90131DCBC4EC00DE0C54 /* DragInteractionController.swift */,
 			);
 			path = VerticalDoorTransitionAnimation;
 			sourceTree = "<group>";
@@ -142,10 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58AA8FF61DCB91BC00DE0C54 /* RootViewController.swift in Sources */,
-				58AA8FFA1DCB91BC00DE0C54 /* ModelController.swift in Sources */,
-				58AA8FF81DCB91BC00DE0C54 /* DataViewController.swift in Sources */,
+				58AA90141DCBC4EC00DE0C54 /* DragInteractionController.swift in Sources */,
+				58AA900C1DCB91E600DE0C54 /* SecondViewController.swift in Sources */,
+				58F156571DCC98D00024B4BB /* PannableButton.swift in Sources */,
+				58AA90121DCB99FE00DE0C54 /* Extensions.swift in Sources */,
 				58AA8FF41DCB91BC00DE0C54 /* AppDelegate.swift in Sources */,
+				58AA900E1DCB93FE00DE0C54 /* VerticalDoorAnimationController.swift in Sources */,
+				58AA900A1DCB91E000DE0C54 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +319,7 @@
 				58AA90081DCB91BC00DE0C54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
